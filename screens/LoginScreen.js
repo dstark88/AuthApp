@@ -8,7 +8,6 @@ import { login } from '../util/auth';
 
 function LoginScreen() {
   const [isAuthenticating, setIsAuthenticating] = useState(false);
-
   const authCtx = useContext(AuthContext);
 
   async function loginHandler({ email, password }) {

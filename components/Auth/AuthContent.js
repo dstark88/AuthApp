@@ -8,7 +8,6 @@ import { Colors } from "../../constants/styles";
 
 function AuthContent({ isLogin, onAuthenticate }) {
   const navigation = useNavigation();
-
   const [credentialsInvalid, setCredentialsInvalid] = useState({
     email: false,
     password: false,

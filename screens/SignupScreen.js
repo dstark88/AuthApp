@@ -8,7 +8,6 @@ import { createUser } from '../util/auth';
 
 function SignupScreen() {
   const [isAuthenticating, setIsAuthenticating] = useState(false);
-
   const authCtx = useContext(AuthContext);
 
   async function signupHandler({ email, password }) {
